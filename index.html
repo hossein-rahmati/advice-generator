@@ -8,20 +8,17 @@
     </style>
     <link rel="stylesheet" href="./build/tailwind.css" />
     <title>Advice generator app</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body style="font-family: 'Manrope', sans-serif" class="bg-[#1f2632]">
     <div class="flex flex-col items-center mx-auto p-8 bg-[#313b4a] m-4 w-96 rounded-xl">
-      <h1 class="text-[#52ffa8] m-2">ADVICE # 117</h1>
-      <p class="text-slate-200 text-lg m-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus autem
-        accusantium, esse ducimus dicta nulla ab, expedita fuga fugit eligendi
-        voluptatem earum corporis quasi blanditiis voluptas hic culpa possimus
-        nisi!
+      <h1 class="text-[#52ffa8] m-2 advice-id"></h1>
+      <p class="text-slate-200 text-lg m-4 advice-text">
       </p>
-      <span >
+      <span>
         <img src="./images/pattern-divider-mobile.svg">
       </span>
-      <span class="bg-[#52ffa8] p-6 rounded-full relative top-14 cursor-pointer hover:opacity-80 hover:rotate-90 transition ease-in duration-150"</span>
+      <span class="bg-[#52ffa8] p-6 rounded-full relative top-14 cursor-pointer hover:opacity-80 hover:rotate-90 transition ease-in duration-150 dice"</span>
         <img src="./images/icon-dice.svg">
       </span>
     </div>
@@ -34,5 +31,6 @@
       <a href="https://github.com/hosseinrmt" class="underline text-[#52ffa8]" target="_blank">Hossein Rahmati</a
       >.
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
