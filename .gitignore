@@ -6,7 +6,6 @@
 design
 README-template.md
 style-guide.md
-.gitignore
 package.json
 package-lock.json
 tailwind.config.js
